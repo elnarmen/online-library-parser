@@ -1,98 +1,120 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="../static/favicon.ico">
-    <!-- Bootstrap CSS -->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="../static/favicon.ico">
+  <!-- Bootstrap CSS -->
 
-    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
 
-    <title>Hello, world!</title>
+  <title>Hello, world!</title>
 </head>
 <body>
   <nav aria-label="Page navigation example">
     <ul class="pagination justify-content-center mt-4">
-
-
       {% if current_page == 1 %}
         <li class="page-item disabled"><a class="page-link" href="#">Назад</a></li>
       {% else %}
         <li class="page-item"><a class="page-link" href="index{{ current_page - 1 }}.html">Назад</a></li>
       {% endif %}
-
-
       {% for page_num in range(1, pages_ammount + 1) %}
         {% if page_num == current_page %}
-          <li class="page-item active"><a class="page-link" href="index{{ page_num }}.html">{{ page_num }}</a></li>
+          <li class="page-item active">
+            <a class="page-link" href="index{{ page_num }}.html">{{ page_num }}</a>
+          </li>
         {% else %}
-          <li class="page-item"><a class="page-link" href="index{{ page_num }}.html">{{ page_num }}</a></li>
+          <li class="page-item">
+            <a class="page-link" href="index{{ page_num }}.html">{{ page_num }}</a>
+          </li>
         {% endif %}
       {% endfor %}
-
-
       {% if current_page == pages_ammount %}
-        <li class="page-item disabled"><a class="page-link" href="#">Вперед</a></li>
+        <li class="page-item disabled">
+          <a class="page-link" href="#">Вперед</a>
+        </li>
       {% else %}
-        <li class="page-item"><a class="page-link" href="index{{ current_page + 1 }}.html">Вперед</a></li>
+        <li class="page-item">
+          <a class="page-link" href="index{{ current_page + 1 }}.html">Вперед</a>
+        </li>
       {% endif %}
     </ul>
   </nav>
-
-
-  {% for book_col_1, book_col_2 in books_on_page %}
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src=..{{book_col_1.img_stat}} class="card-img" alt="{{book_col_1.name}}">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">{{book_col_1.name}}</h5>
-                                <p class="card-text">{{book_col_1.author}}</p>
-                                {% for genre in book_col_1.genres %}
-                                  <p class="badge badge-light">{{ genre }}</p>
-                                {% endfor %}
-                                <br>
-                                <a href="{{book_col_1.book_path|urlencode}}" target="_blank">Читать</a>
-                            </div>
-                        </div>
-                    </div>
+  <div class="container">
+    {% for left_book, right_book in books_on_page %}
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src=..{{left_book.img_stat}} class="card-img" alt="{{left_book.name}}">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">{{left_book.name}}</h5>
+                  <p class="card-text">{{left_book.author}}</p>
+                  {% for genre in left_book.genres %}
+                  <p class="badge badge-light">{{ genre }}</p>
+                  {% endfor %}
+                  <br>
+                  <a href="{{left_book.book_path|urlencode}}" target="_blank">Читать</a>
                 </div>
+              </div>
             </div>
-            <div class="col">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="{{book_col_2.img_stat}}" class="card-img" alt="{{book_col_2.name}}">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">{{book_col_2.name}}</h5>
-                                <p class="card-text">{{book_col_2.author}}</p>
-                                {% for genre in book_col_2.genres %}
-                                  <p class="badge badge-light">{{ genre }}</p>
-                                {% endfor %}
-                                <br>
-                                <a href="{{book_col_2.book_path|urlencode}}" target="_blank">Читать</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-  {% endfor %}
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="../static/js/jquery-3.3.1.slim.min.js"></script>
-<script src="../static/js/popper.min.js"></script>
-<script src="../static/js/bootstrap.min.js"></script>
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src=..{{right_book.img_stat}} class="card-img" alt="{{right_book.name}}">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">{{right_book.name}}</h5>
+                  <p class="card-text">{{right_book.author}}</p>
+                  {% for genre in right_book.genres %}
+                  <p class="badge badge-light">{{ genre }}</p>
+                  {% endfor %}
+                  <br>
+                  <a href="{{right_book.book_path|urlencode}}" target="_blank">Читать</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    {% if last_book %}
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src=..{{last_book.img_stat}} class="card-img" alt="{{last_book.name}}">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">{{last_book.name}}</h5>
+                  <p class="card-text">{{last_book.author}}</p>
+                  {% for genre in last_book.genres %}
+                  <p class="badge badge-light">{{ genre }}</p>
+                  {% endfor %}
+                  <br>
+                  <a href="{{last_book.book_path|urlencode}}" target="_blank">Читать</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="../static/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="../static/js/popper.min.js"></script>
+  <script src="../static/js/bootstrap.min.js"></script>
 </body>
 </html>
 
