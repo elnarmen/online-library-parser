@@ -3,10 +3,8 @@ import argparse
 import time
 import pathlib
 import requests
-import re
 import json
 import pathvalidate
-import sys
 from environs import Env
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlsplit
@@ -80,7 +78,7 @@ def parse_book_page(book_page_soup, book_page_url):
     valid_book_name = pathvalidate.sanitize_filename(book_name).strip()
     short_img_url = book_page_soup.select_one('.bookimage img').get('src')
     img_src = urljoin(book_page_url, short_img_url)
-    img_stat = f"/attachments/images/{urlsplit(img_src).path.split('/')[-1]}"
+    img = f"/attachments/images/{urlsplit(img_src).path.split('/')[-1]}"
 
     book_descriptions = {
 
@@ -90,7 +88,7 @@ def parse_book_page(book_page_soup, book_page_url):
 
         'img_src': img_src,
 
-        'img_stat': img_stat,
+        'img': img,
 
         'book_path':
             os.path.join(PATH, os.path.join('books', f"{valid_book_name}.txt")),

@@ -16,7 +16,7 @@ def on_reload():
     with open("attachments/books_descriptions.json", "r") as file:
         books_descriptions_json = file.read()
 
-    books_descriptions = list(chunked_even(json.loads(books_descriptions_json), 20))
+    books_descriptions = list(chunked(json.loads(books_descriptions_json), 20))
     pages_ammount = len(books_descriptions)
     for current_page, books_on_page in enumerate(books_descriptions, 1):
         last_book = None
