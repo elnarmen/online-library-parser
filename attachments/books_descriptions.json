@@ -4,7 +4,7 @@
         "author": "ИВАНОВ Сергей",
         "img_src": "https://tululu.org/shots/239.jpg",
         "img": "/attachments/images/239.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Алиби.txt",
+        "book_path": "attachments/books/Алиби.txt",
         "comments": [
             "Детский вариант анекдотов про Шерлока Холмса)",
             "Загадки я люблю.)))",
@@ -21,7 +21,7 @@
         "author": "Стерлинг Брюс",
         "img_src": "https://tululu.org/shots/550.jpg",
         "img": "/attachments/images/550.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Бич небесный.txt",
+        "book_path": "attachments/books/Бич небесный.txt",
         "comments": [
             "Весьма интересная книга. Динамичный сюжет, насыщеный приключениями. Вмеру счастливый конец для главных героев. Оставляет чувство удовлетворения и завершенности. Немного коробит жаргон персонажей (пара выражений).",
             "книга супер!",
@@ -42,7 +42,7 @@
         "author": "Маркеев Олег Георгиевич",
         "img_src": "https://tululu.org/shots/768.jpg",
         "img": "/attachments/images/768.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Цена посвящения Серый Ангел.txt",
+        "book_path": "attachments/books/Цена посвящения Серый Ангел.txt",
         "comments": [
             "Очень хорошо, много интересных мыслей. Советую.",
             "Понравилось. Немного политизированности создает специфические ассоциации по восприятию произведения. Не скажу что \"отпад как классно\", но интересно читать. Фантастики как таковой нет, но от этого детектив хуже не стал."
@@ -57,7 +57,7 @@
         "author": "Маркеев Олег Георгиевич",
         "img_src": "https://tululu.org/shots/769.jpg",
         "img": "/attachments/images/769.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Цена посвящения Время Зверя.txt",
+        "book_path": "attachments/books/Цена посвящения Время Зверя.txt",
         "comments": [
             "Мне понравилось, приятно читать умного человека чтобы он не писал.",
             "Из этой серии, лучшая!",
@@ -73,7 +73,7 @@
         "author": "Fforde Jasper",
         "img_src": "https://tululu.org/shots/1131.jpg",
         "img": "/attachments/images/1131.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Дело Джен, или Эйра немилосердия.txt",
+        "book_path": "attachments/books/Дело Джен, или Эйра немилосердия.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -85,7 +85,7 @@
         "author": "Мар Курт",
         "img_src": "https://tululu.org/shots/1715.jpg",
         "img": "/attachments/images/1715.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Фабрика дьявола.txt",
+        "book_path": "attachments/books/Фабрика дьявола.txt",
         "comments": [
             "Книга супер!=)) всем советую!=)",
             "\nдинамичное развитие событий, прочитав страницу, хочется читать следующую; хорошо, но мало.",
@@ -103,7 +103,7 @@
         "author": "Азимов Айзек",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Говорящий камень.txt",
+        "book_path": "attachments/books/Говорящий камень.txt",
         "comments": [
             "читала похожее произведение. \"Мешок\", автора не помню.",
             "Спасибо!!!",
@@ -124,7 +124,7 @@
         "author": "Аджалов Владимир",
         "img_src": "https://tululu.org/shots/2043.jpg",
         "img": "/attachments/images/2043.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/И Он пришел... ИТ-роман.txt",
+        "book_path": "attachments/books/И Он пришел... ИТ-роман.txt",
         "comments": [
             "С удовольствием прочитал эту книгу, это удивительная книга по охвату событий сочетание прошлого и настоящего. Побольше бы таких.",
             "Автор пришет в стиле Арура Хейли (Аэропорт, Отель и т.д.- кто не читал) - такая же многоплановость повествования и развитие сюжета в жанре экшн, но у Хейли даже второстепенные герои так мастерски выписаны, что надолго запоминаются, а здесь они банально одномерны. Кстати, идею об эмбрионах автор тоже позаимствовал из известной книги Код бытия, которой, соответственно, проигрывает. Эдинственный плюс - может кто-то после прочтения зантересуется хотя бы Библией и Евангелием, который мы так плохо знаем, ведь люди не читают подобной литературы, а может, даже почувствует Бога внутри себя и станет лучше!!!",
@@ -157,7 +157,7 @@
         "author": "Чертанов Максим",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Казнить нельзя помиловать.txt",
+        "book_path": "attachments/books/Казнить нельзя помиловать.txt",
         "comments": [
             "Стоит прочесть, несмотря на кое-гдешные замудрёносушности))"
         ],
@@ -171,7 +171,7 @@
         "author": "Азимов Айзек",
         "img_src": "https://tululu.org/shots/4024.jpg",
         "img": "/attachments/images/4024.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Ночь, которая умирает.txt",
+        "book_path": "attachments/books/Ночь, которая умирает.txt",
         "comments": [
             "Отличная книга! Причитал быстро, очень понравилась.",
             "Ни фига не логично все. Если, как утверждает преступник \"все остальное произошло само собой. Одно потянуло за собой другое, и прежде, чем я понял, что делаю, было уже поздно\", то не думаю что у него совершенно случайно с собой оказалась запасная пленка, которую он вставил в фотик, отснял записи, потом вынул и спрятал, а в фотик вернул ту пленку что была там раньше. Все же произошло \"само собой\", то есть в состоянии аффекта, рядом с трупом... А если запасной пленки не было, тогда когда он отдал свой фотоаппарат на проверку, выяснилось бы что она новая, а это подозрительно в первую очередь. Короче троечка...",
@@ -192,7 +192,7 @@
         "author": "Хенрик Ричард",
         "img_src": "https://tululu.org/shots/4102.jpg",
         "img": "/attachments/images/4102.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Нырок в забвение.txt",
+        "book_path": "attachments/books/Нырок в забвение.txt",
         "comments": [
             "Автору: Хенрик РичардYan Smit 25. 09. 2011 13:29:15 (перенесено)Нырок в забвение:: Хенрик Ричард Это не фантастика, это какая-то пропагандистская агитка( Автор не шарит в науках, но пишет о них - простительно. Автор не военный, но сочиняет на околовоенные темы - плевать. Но как у него русский КАПИТАН, прошедший войну, вдруг решил в жизни \"плыть по течению\"???! Автор, что, русских только по своим газетам, да по нашим москвичам видел? А \"океанолог Ирина\", через каждые пять минут ругающая перед иностранцами своё, советское, откуда взялась? Что за гибрид проститутки с инопланетянином? В любом народе люди между собой по костям разложат и своё и своих, но перед чужими - хрен! Ни француз, ни американец, ни, тем более русский - СВОЁ перед чужими никогда опускать не станет. В общем, персонажи картонные, действо надуманное, и книжонку \"вытягивает\" только сюжет и как-бы современность. Ощущения при чтении - чтиво на раз. Долистать, плюнуть, и повесить в общественном туалете деревенском."
         ],
@@ -207,7 +207,7 @@
         "author": "Азимов Айзек",
         "img_src": "https://tululu.org/shots/4876.jpg",
         "img": "/attachments/images/4876.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Поющий колокольчик.txt",
+        "book_path": "attachments/books/Поющий колокольчик.txt",
         "comments": [
             "как и все по-настоящему драгоценное, колокольчики были хрупки до невозможности. но человек в своем стремлении к наживе забывает о хрупкости и видит перед собой только ценность... цену, выраженную в денежном эквиваленте...",
             "Я прочитала эти произведения ещё в институте и просто заболела Азимовым. Книги я брала у знакомых, но сейчас благодоря интернету могу читать когда угодно. Спасибо вам!",
@@ -223,7 +223,7 @@
         "author": "Аджалов Владимир Исфандеярович",
         "img_src": "https://tululu.org/shots/5299.jpg",
         "img": "/attachments/images/5299.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Продается тело Христа.txt",
+        "book_path": "attachments/books/Продается тело Христа.txt",
         "comments": [
             "Приятная книга=)",
             "Чем- то напоминает фильм \"2012\", особенно, тема Христа. Глупо и притянуто за уши, самое то для тех, кто от радости брызгает слюной в сказках о Боге, спасителе и прочей ерунде))",
@@ -242,7 +242,7 @@
         "author": "Патрацкая Наталья",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Роковой поцелуй.txt",
+        "book_path": "attachments/books/Роковой поцелуй.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -255,7 +255,7 @@
         "author": "Руденко Борис",
         "img_src": "https://tululu.org/shots/6758.jpg",
         "img": "/attachments/images/6758.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Те, кто против нас.txt",
+        "book_path": "attachments/books/Те, кто против нас.txt",
         "comments": [
             "Есть над чем подумать. Спасибо автору за хорошую книгу.",
             "Книга очень понравилась! И идея новая, и сюжет интересный.",
@@ -276,7 +276,7 @@
         "author": "Мар Курт",
         "img_src": "https://tululu.org/shots/6766.jpg",
         "img": "/attachments/images/6766.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Телепортеры, внимание!.txt",
+        "book_path": "attachments/books/Телепортеры, внимание!.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -288,7 +288,7 @@
         "author": "Стивенсон Нил",
         "img_src": "https://tululu.org/shots/8283.jpg",
         "img": "/attachments/images/8283.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Зодиак.txt",
+        "book_path": "attachments/books/Зодиак.txt",
         "comments": [
             "ооооо, великая оранжевая серия!!! Большая часть из этой линии застревает и в душе, и в голове надолго))) \r\nнадеюсь и эта книга произведет на меня такое же сильное впечатление, как и другие оранжевые%)))"
         ],
@@ -302,7 +302,7 @@
         "author": "Картман Эрика",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Justitia - est Часть 1.txt",
+        "book_path": "attachments/books/Justitia - est Часть 1.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -314,7 +314,7 @@
         "author": "Хайнлайн Роберт",
         "img_src": "https://tululu.org/shots/8902.jpg",
         "img": "/attachments/images/8902.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Астронавт Джонс.txt",
+        "book_path": "attachments/books/Астронавт Джонс.txt",
         "comments": [
             "Замечательная книга, поэтому и скачиваю. Читал давно, хочу перечитать снова.",
             "Среди нынешнего мусора, книга представляет образец настоящей фантастики. Моя оценка 5. Один недочет - в конце ожидал большего.",
@@ -345,7 +345,7 @@
         "author": "Хайнлайн Роберт",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Будет скафандр - будут и путешествия.txt",
+        "book_path": "attachments/books/Будет скафандр - будут и путешествия.txt",
         "comments": [
             "Хорошая добрая книга.",
             "Очень приятная книга. Мягкая и пушистая.",
@@ -368,7 +368,7 @@
         "author": "Семенова Татьяна",
         "img_src": "https://tululu.org/shots/9402.jpg",
         "img": "/attachments/images/9402.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Дочь Нефертити.txt",
+        "book_path": "attachments/books/Дочь Нефертити.txt",
         "comments": [
             "Несмотря на пометку, что литература для детей, мне очень понравился роман. Приятно наблюдать, что автор, перед написанием, проштудировала материалы по быту, одежде и прочим тонкостям как самой XVIII династии, так и исторические сведения о Древнем Египте. Преподнесено очень легко и ненавязчиво. Умничка, одним словом))",
             "Книга очень понравилась, хотя уже далеко не детский возраст. Книга читается очень легко.",
@@ -391,7 +391,7 @@
         "author": "Семенова Татьяна",
         "img_src": "https://tululu.org/shots/10768.jpg",
         "img": "/attachments/images/10768.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Наложница императора.txt",
+        "book_path": "attachments/books/Наложница императора.txt",
         "comments": [
             "Замечательная книга, в которой весьма интересно изложены исторические факты, вплетённые в роман о приключениях современных подростков))",
             "Книга очень увлекательная.",
@@ -408,7 +408,7 @@
         "author": "Белохвостов Денис",
         "img_src": "https://tululu.org/shots/10923.jpg",
         "img": "/attachments/images/10923.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Общая теория Доминант.txt",
+        "book_path": "attachments/books/Общая теория Доминант.txt",
         "comments": [
             "очень интересная книга, перечитывала раз5",
             "Сюжет книги очень интересный, динамичный.",
@@ -431,7 +431,7 @@
         "author": "Мейстер Максим",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Взгляд из сердца.txt",
+        "book_path": "attachments/books/Взгляд из сердца.txt",
         "comments": [],
         "genres": [
             "Детская проза",
@@ -446,7 +446,7 @@
         "author": "Хайнлайн Роберт",
         "img_src": "https://tululu.org/shots/13038.jpg",
         "img": "/attachments/images/13038.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Звездный зверь ( Звездное чудовище).txt",
+        "book_path": "attachments/books/Звездный зверь ( Звездное чудовище).txt",
         "comments": [
             "Хорошая книжка.",
             "Ксенофобия, ненависть ко всему тому что не хочется понимать, может привести к гибели чедовечество. Эта тема актуальна сейчас и скорее всего будет актуальна еще очень долго.",
@@ -462,7 +462,7 @@
         "author": "ЛУКИНА Любовь",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/Сборник рассказов и повестей.txt",
+        "book_path": "attachments/books/Сборник рассказов и повестей.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -475,7 +475,7 @@
         "author": "Азимов Айзек",
         "img_src": "https://tululu.org/shots/18919.jpg",
         "img": "/attachments/images/18919.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/...Яко помниши его.txt",
+        "book_path": "attachments/books/...Яко помниши его.txt",
         "comments": [
             "все просто супер",
             "НИШТЯК-КНИГА",
@@ -504,7 +504,7 @@
         "author": "Силверберг Роберт",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/...На Вавилон.txt",
+        "book_path": "attachments/books/...На Вавилон.txt",
         "comments": [
             "Отличный рассказ.",
             "Этот рассказ захватывает с первого до последнего момента, почитайте, поймете, чем он интересен. Советую.",
@@ -521,7 +521,7 @@
         "author": "Азимов Айзек",
         "img_src": "https://tululu.org/shots/18921.jpg",
         "img": "/attachments/images/18921.jpg",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/...Вставьте шплинт А в гнездо Б....txt",
+        "book_path": "attachments/books/...Вставьте шплинт А в гнездо Б....txt",
         "comments": [
             "Да уж, история на одну минуту. Сюжет простейший, ничего необычного, но улыбнуло))",
             "Хорошия история. Прочитал, улыбнулся и, наверное, забыл. Но, рассказ очень милый...",
@@ -546,7 +546,7 @@
         "author": "Радутный Радий",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/...к звездам!.txt",
+        "book_path": "attachments/books/...к звездам!.txt",
         "comments": [
             "Спасибо за полученное удовольствие."
         ],
@@ -559,7 +559,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/1-книга. Весна на Галане.txt",
+        "book_path": "attachments/books/1-книга. Весна на Галане.txt",
         "comments": [
             "Если честно, то слишком растянуто и нудновато. А в общем, идея понравилась, можно почитать, разок.",
             "Согласна. Есть интересные моменты, но явный перебор по колличеству печатных знаков. Занудные описание роскоши, повтор на повторе. Автор выдохся в середине первой части. Эту книгу можно пролистать, останавливаясь на некоторых моментах.",
@@ -575,7 +575,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/10-я книга. Варкенские перемены..txt",
+        "book_path": "attachments/books/10-я книга. Варкенские перемены..txt",
         "comments": [
             "Я ставлю 4."
         ],
@@ -588,7 +588,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/11-я книга. Рождение империи сенсетивов.txt",
+        "book_path": "attachments/books/11-я книга. Рождение империи сенсетивов.txt",
         "comments": [
             "Спасобо вам за это произведение!!!!!",
             "Спасибо огромное, жду с нетерпением 16 книгу. Почему о вас нигде нет информации.? Пишете очень интересно-погрузилась в этот мир с удовольствием."
@@ -602,7 +602,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/13-я книга. Галанское сватовство.txt",
+        "book_path": "attachments/books/13-я книга. Галанское сватовство.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -613,7 +613,7 @@
         "author": "Макаров Андрей",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/132-й.txt",
+        "book_path": "attachments/books/132-й.txt",
         "comments": [
             "Хороший рассказ. Так и хочется этому штабному офицеру смазать по мурсалам... Сытый, чистый, самодовольный. Хорошо, что были и есть такие, как тот несуразный полковник.",
             "Хороший рассказ, только жизненный, не фантастика.",
@@ -630,7 +630,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/14-я книга. Барабаны Таланов.txt",
+        "book_path": "attachments/books/14-я книга. Барабаны Таланов.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -641,7 +641,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/15-я книга. Школа арханелов.txt",
+        "book_path": "attachments/books/15-я книга. Школа арханелов.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -652,7 +652,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/2-я книга. Сенсетивы Галана.txt",
+        "book_path": "attachments/books/2-я книга. Сенсетивы Галана.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -663,7 +663,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/4-я книга. Экспедиция на Голубой планетоид.txt",
+        "book_path": "attachments/books/4-я книга. Экспедиция на Голубой планетоид.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -674,7 +674,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/5-я книга. В подземельях Бидрупа..txt",
+        "book_path": "attachments/books/5-я книга. В подземельях Бидрупа..txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -685,7 +685,7 @@
         "author": "Салли Джейли",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/53-я американская мечта.txt",
+        "book_path": "attachments/books/53-я американская мечта.txt",
         "comments": [
             "Полнейший бред по моему мнению.",
             "Вы можете долго искать смысл в этом рассказе, но так и не найти. В этом, наверное, и была цель автора."
@@ -699,7 +699,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/6-я книга. Сражение за Бидруп..txt",
+        "book_path": "attachments/books/6-я книга. Сражение за Бидруп..txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -710,7 +710,7 @@
         "author": "Лейбер Фриц",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/64-клеточный дурдом.txt",
+        "book_path": "attachments/books/64-клеточный дурдом.txt",
         "comments": [
             "Заставляет задуматься- человек против мной машины или наоборот. Понравится любителям шахматных игр- книга для вас."
         ],
@@ -723,7 +723,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/7-я книга. День Откровения.txt",
+        "book_path": "attachments/books/7-я книга. День Откровения.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -734,7 +734,7 @@
         "author": "Карр Алекс",
         "img_src": "https://tululu.org/images/nopic.gif",
         "img": "/attachments/images/nopic.gif",
-        "book_path": "/home/elnar/projects/online_library_parser/attachments/books/8-я книга. Полет Уригленны..txt",
+        "book_path": "attachments/books/8-я книга. Полет Уригленны..txt",
         "comments": [],
         "genres": [
             "Научная фантастика"

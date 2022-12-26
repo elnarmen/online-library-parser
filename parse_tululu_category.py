@@ -91,7 +91,7 @@ def parse_book_page(book_page_soup, book_page_url):
         'img': img,
 
         'book_path':
-            os.path.join(PATH, os.path.join('books', f"{valid_book_name}.txt")),
+            os.path.join('attachments', os.path.join('books', f"{valid_book_name}.txt")),
 
         'comments': [comment.select_one('.black').text
                      for comment in book_page_soup.select('.texts')],
