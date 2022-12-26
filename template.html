@@ -55,7 +55,7 @@
                   <h5 class="card-title">{{left_book.name}}</h5>
                   <p class="card-text">{{left_book.author}}</p>
                   {% for genre in left_book.genres %}
-                  <p class="badge badge-light">{{ genre }}</p>
+                    <p class="badge badge-light">{{ genre }}</p>
                   {% endfor %}
                   <br>
                   <a href="../{{left_book.book_path|urlencode}}" target="_blank">Читать</a>
@@ -75,7 +75,7 @@
                   <h5 class="card-title">{{right_book.name}}</h5>
                   <p class="card-text">{{right_book.author}}</p>
                   {% for genre in right_book.genres %}
-                  <p class="badge badge-light">{{ genre }}</p>
+                    <p class="badge badge-light">{{ genre }}</p>
                   {% endfor %}
                   <br>
                   <a href="../{{right_book.book_path|urlencode}}" target="_blank">Читать</a>
@@ -99,7 +99,7 @@
                   <h5 class="card-title">{{last_book.name}}</h5>
                   <p class="card-text">{{last_book.author}}</p>
                   {% for genre in last_book.genres %}
-                  <p class="badge badge-light">{{ genre }}</p>
+                    <p class="badge badge-light">{{ genre }}</p>
                   {% endfor %}
                   <br>
                   <a href="../{{last_book.book_path|urlencode}}" target="_blank">Читать</a>
