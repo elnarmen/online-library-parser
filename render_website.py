@@ -8,7 +8,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 env = Env()
 env.read_env()
-PATH = env('PATH_TO_DESCRIPTIONS', default="attachments/books_descriptions.json")
+PATH = env('PATH_TO_DESCRIPTIONS', default='attachments/books_descriptions.json')
 BOOKS_ON_PAGE = 20
 NUMBER_OF_COLUMNS = 2
 
@@ -20,7 +20,7 @@ def on_reload():
 
     template = env.get_template('template.html')
 
-    with open(PATH, "r") as file:
+    with open(PATH, 'r') as file:
         books_descriptions_json = json.load(file)
     books_descriptions = list(chunked(books_descriptions_json, BOOKS_ON_PAGE))
     pages_amount = len(books_descriptions)
@@ -37,7 +37,7 @@ def on_reload():
         )
         folder = 'pages'
         os.makedirs(folder, exist_ok=True)
-        with open(os.path.join(folder, f'index{current_page}.html'), 'w', encoding="utf8") as file:
+        with open(os.path.join(folder, f'index{current_page}.html'), 'w', encoding='utf8') as file:
             file.write(rendered_page)
 
 

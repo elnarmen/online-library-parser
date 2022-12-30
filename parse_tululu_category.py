@@ -78,7 +78,7 @@ def parse_book_page(book_page_soup, book_page_url):
     valid_book_name = pathvalidate.sanitize_filename(book_name).strip()
     short_img_url = book_page_soup.select_one('.bookimage img').get('src')
     img_src = urljoin(book_page_url, short_img_url)
-    img = f"/attachments/images/{urlsplit(img_src).path.split('/')[-1]}"
+    img = f'/attachments/images/{urlsplit(img_src).path.split("/")[-1]}'
 
     book_descriptions = {
 
@@ -91,7 +91,7 @@ def parse_book_page(book_page_soup, book_page_url):
         'img': img,
 
         'book_path':
-            os.path.join('attachments', os.path.join('books', f"{valid_book_name}.txt")),
+            os.path.join('attachments', os.path.join('books', f'{valid_book_name}.txt')),
 
         'comments': [comment.select_one('.black').text
                      for comment in book_page_soup.select('.texts')],
@@ -106,13 +106,13 @@ def parse_book_page(book_page_soup, book_page_url):
 def validate_args(args):
     for arg in args:
         if arg < 1:
-            raise ValueError("Введите число больше 0")
+            raise ValueError('Введите число больше 0')
 
 
 def create_parser(default_end_page):
     parser = argparse.ArgumentParser(
-        description="Программа скачивает книги "
-                    "из электронной библиотеки 'tululu.org'"
+        description='Программа скачивает книги '
+                    'из электронной библиотеки "tululu.org"'
     )
     parser.add_argument(
         '-s', '--start_page',
@@ -160,7 +160,7 @@ def main():
     category_id = env.int('CATEGORY_ID', default=55)
 
     end_page = \
-        get_last_page_num(get_soup(f"https://tululu.org/l{category_id}/"))
+        get_last_page_num(get_soup(f'https://tululu.org/l{category_id}/'))
 
     parser = create_parser(end_page)
     namespace = parser.parse_args()
@@ -175,7 +175,7 @@ def main():
         while True:
             try:
                 category_page_url = \
-                    f"https://tululu.org/l{category_id}/{page_id}/"
+                    f'https://tululu.org/l{category_id}/{page_id}/'
                 soup_of_category_page = get_soup(category_page_url)
                 all_books_urls.extend(
                     get_books_urls_on_page(soup_of_category_page,
