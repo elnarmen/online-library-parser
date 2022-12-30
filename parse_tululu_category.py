@@ -35,7 +35,7 @@ def get_soup(url):
     return soup
 
 
-def download_txt(url, book_name, base_path, folder='books/') -> str:
+def download_txt(url, book_name, base_path, folder='books/'):
     dest_folder = pathlib.Path(base_path)
     path = pathlib.Path(dest_folder / folder / f'{book_name}.txt')
     path.parent.mkdir(parents=True, exist_ok=True)
