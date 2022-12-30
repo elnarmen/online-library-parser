@@ -23,7 +23,7 @@ def on_reload():
     with open(PATH, "r") as file:
         books_descriptions_json = json.load(file)
     books_descriptions = list(chunked(books_descriptions_json, BOOKS_ON_PAGE))
-    pages_ammount = len(books_descriptions)
+    pages_amount = len(books_descriptions)
     for current_page, books_on_page in enumerate(books_descriptions, 1):
         last_book = None
         if len(books_on_page) % 2:
@@ -32,12 +32,12 @@ def on_reload():
         rendered_page = template.render(
             books_on_page=chunked(books_on_page, NUMBER_OF_COLUMNS),
             last_book=last_book,
-            pages_ammount=pages_ammount,
+            pages_amount=pages_amount,
             current_page=current_page
         )
-        path = 'pages'
-        os.makedirs(path, exist_ok=True)
-        with open(os.path.join(path, f'index{current_page}.html'), 'w', encoding="utf8") as file:
+        folder = 'pages'
+        os.makedirs(folder, exist_ok=True)
+        with open(os.path.join(folder, f'index{current_page}.html'), 'w', encoding="utf8") as file:
             file.write(rendered_page)
 
 
