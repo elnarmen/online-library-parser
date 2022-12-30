@@ -5,12 +5,12 @@ from more_itertools import chunked
 from livereload import Server
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-
 env = Env()
 env.read_env()
 PATH = env('PATH_TO_DESCRIPTIONS', default='attachments/books_descriptions.json')
 BOOKS_ON_PAGE = 20
 NUMBER_OF_COLUMNS = 2
+
 
 def on_reload():
     env = Environment(
@@ -40,10 +40,12 @@ def on_reload():
         with open(os.path.join(folder, f'index{current_page}.html'), 'w', encoding='utf8') as file:
             file.write(rendered_page)
 
+def main():
+    on_reload()
+    server = Server()
+    server.watch('template.html', on_reload)
+    server.serve(root='.')
 
-on_reload()
-server = Server()
-server.watch('template.html', on_reload)
-server.serve(root='.')
 
-
+if __name__ == '__main__':
+    main()
