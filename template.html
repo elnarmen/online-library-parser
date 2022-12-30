@@ -41,7 +41,7 @@
       </ul>
     </nav>
     <div class="container">
-      {% for left_book, right_book in books_on_page %}
+      {% for left_book, right_book in zip(left_col, right_col) %}
         <div class="row">
           <div class="col">
             <div class="card mb-3" style="max-width: 540px;">
@@ -85,30 +85,6 @@
           </div>
         </div>
       {% endfor %}
-      {% if last_book %}
-        <div class="row">
-          <div class="col">
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img src=..{{last_book.img}} class="card-img" alt="{{last_book.name}}">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">{{last_book.name}}</h5>
-                    <p class="card-text">{{last_book.author}}</p>
-                    {% for genre in last_book.genres %}
-                      <p class="badge badge-light">{{ genre }}</p>
-                    {% endfor %}
-                    <br>
-                    <a href="../{{last_book.book_path|urlencode}}" target="_blank">Читать</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      {% endif %}
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

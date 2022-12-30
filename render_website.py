@@ -1,9 +1,11 @@
 import json
 import os
+import numpy
 from environs import Env
 from more_itertools import chunked
 from livereload import Server
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+
 
 env = Env()
 env.read_env()
@@ -25,15 +27,13 @@ def on_reload():
     books_descriptions = list(chunked(books_descriptions_json, BOOKS_ON_PAGE))
     pages_amount = len(books_descriptions)
     for current_page, books_on_page in enumerate(books_descriptions, 1):
-        last_book = None
-        if len(books_on_page) % 2:
-            last_book = books_on_page[-1]
-            books_on_page = books_on_page[:-1]
+        left_col, right_col = numpy.array_split(books_on_page, 2)
         rendered_page = template.render(
-            books_on_page=chunked(books_on_page, NUMBER_OF_COLUMNS),
-            last_book=last_book,
+            left_col=left_col,
+            right_col=right_col,
             pages_amount=pages_amount,
-            current_page=current_page
+            current_page=current_page,
+            zip=zip
         )
         folder = 'pages'
         os.makedirs(folder, exist_ok=True)
