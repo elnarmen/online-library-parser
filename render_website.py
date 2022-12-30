@@ -1,8 +1,14 @@
 import json
 import os
-from more_itertools import chunked, chunked_even
+from environs import Env
+from more_itertools import chunked
 from livereload import Server
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+
+
+env = Env()
+env.read_env()
+PATH = env('PATH_TO_DESCRIPTIONS', default="attachments/books_descriptions.json")
 
 
 def on_reload():
@@ -13,10 +19,10 @@ def on_reload():
 
     template = env.get_template('template.html')
 
-    with open("attachments/books_descriptions.json", "r") as file:
-        books_descriptions_json = file.read()
+    with open(PATH, "r") as file:
+        books_descriptions_json = json.load(file)
 
-    books_descriptions = list(chunked(json.loads(books_descriptions_json), 20))
+    books_descriptions = list(chunked(books_descriptions_json, 20))
     pages_ammount = len(books_descriptions)
     for current_page, books_on_page in enumerate(books_descriptions, 1):
         last_book = None
