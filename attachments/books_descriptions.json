@@ -728,16 +728,5 @@
         "genres": [
             "Научная фантастика"
         ]
-    },
-    {
-        "name": "8-я книга. Полет Уригленны.",
-        "author": "Карр Алекс",
-        "img_src": "https://tululu.org/images/nopic.gif",
-        "img": "/attachments/images/nopic.gif",
-        "book_path": "attachments/books/8-я книга. Полет Уригленны..txt",
-        "comments": [],
-        "genres": [
-            "Научная фантастика"
-        ]
     }
 ]
