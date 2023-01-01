@@ -7,14 +7,14 @@ from livereload import Server
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
-env = Env()
-env.read_env()
-PATH = env('PATH_TO_DESCRIPTIONS', default='attachments/books_descriptions.json')
 BOOKS_ON_PAGE = 20
 NUMBER_OF_COLUMNS = 2
 
 
 def on_reload():
+    env = Env()
+    env.read_env()
+    PATH = env('PATH_TO_DESCRIPTIONS', default='attachments/books_descriptions.json')
     env = Environment(
         loader=FileSystemLoader('.'),
         autoescape=select_autoescape(['html', 'xml'])
