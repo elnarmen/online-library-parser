@@ -8,7 +8,6 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
 BOOKS_ON_PAGE = 20
-NUMBER_OF_COLUMNS = 2
 
 
 def on_reload():
